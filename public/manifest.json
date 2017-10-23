@@ -1,0 +1,21 @@
+{
+  "name": "chrome-extension-react",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "chrome-extension-react",
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "static/media/images/icon-19.png",
+      "38": "static/media/icon-38.png"
+    },
+    "default_title": "henkel urlz",
+    "default_popup": "popup.html"
+  }
+}
